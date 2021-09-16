@@ -1,0 +1,2 @@
+rootProject.name = "TabLayoutProto"
+include ':app'
