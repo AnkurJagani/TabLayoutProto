@@ -12,8 +12,8 @@
         android:theme="@style/Theme.TabLayoutProto">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
             android:exported="false"
+            android:label="@string/app_name"
             android:theme="@style/Theme.TabLayoutProto.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +21,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".NewPagerActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.TabLayoutProto.NoActionBar" />
     </application>
 
 </manifest>
